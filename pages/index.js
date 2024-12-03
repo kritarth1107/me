@@ -57,7 +57,7 @@ export default function index() {
       <div className='flex flex-row justify-between'>
             {/* Name */}
             <div className='flex flex-col'>
-                <span className='font-semibold text-[24px]'>Hello I'm,</span>
+                <span className='font-semibold text-[24px]'>Hello I&apos;m,</span>
                 <span className='font-bold text-[160px] tracking-tight leading-[150px]'>Kritarth A.</span>
                 <span className='font-extralight  text-[20px] text-[#4B4B4B]'>Co-founder & CTO at <Link href="https://airchains.io" target='_blank'><span className='underline'>Airchains</span></Link></span>
             </div>
@@ -82,7 +82,7 @@ export default function index() {
               alt='kritarth-agrawal-co-founder-airchains' />
 
               <span className='max-w-[500px] leading-[38px] text-[18px] font-light'>
-              With a Computer Science background, I lead Airchains’ efforts to integrate zkFHE, making blockchain indispensable for real-world use.
+              With a Computer Science background, I lead Airchains&apos; efforts to integrate zkFHE, making blockchain indispensable for real-world use.
               </span>
             </div>
             {/* Links */}
@@ -96,7 +96,7 @@ export default function index() {
 
     <div className='bg-[#FCFCFC] py-6'>
         <div className='max-w-[1200px] mx-auto w-full'>
-          <span className='text-[#A7A7A7] font-thin'>In blockchain, confidentiality isn’t just a feature—it’s the foundation of trust in a decentralized world.</span>
+          <span className='text-[#A7A7A7] font-thin'>In blockchain, confidentiality isn&apos;t just a feature—it&apos;s the foundation of trust in a decentralized world.</span>
         </div>
     </div>
       
