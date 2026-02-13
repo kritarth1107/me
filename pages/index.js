@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { RiTwitterXLine } from "react-icons/ri";
-import { FaLinkedin, FaDiscord } from "react-icons/fa";
+import { FaLinkedin, FaTelegram } from "react-icons/fa";
 import Head from "next/head";
 
 export default function index() {
@@ -31,7 +31,7 @@ export default function index() {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://kritarthagrawal.com/kritarth-agrawal.png"
+          content="https://kritarthagrawal.com/KritarthAgrawal.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -44,7 +44,7 @@ export default function index() {
         />
         <meta
           name="twitter:image"
-          content="https://kritarthagrawal.com/kritarth-agrawal.png"
+          content="https://kritarthagrawal.com/KritarthAgrawal.png"
         />
 
         <link rel="icon" href="/favicon.ico" />
@@ -56,10 +56,10 @@ export default function index() {
             <span className="font-extrabold text-[36px]">K.</span>
             <div>
               /
-              <Link href="mailto:kritarth@airchains.io">
+              <Link href="mailto:singhalkritarth@gmail.com">
                 {" "}
                 <span className="underline tracking-wide font-light">
-                  kritarth@airchains.io
+                  singhalkritarth@gmail.com
                 </span>
               </Link>
             </div>
@@ -74,8 +74,8 @@ export default function index() {
             >
               <FaLinkedin size={25} />
             </Link>
-            <Link href="https://discord.gg/joinairchains" target="_blank">
-              <FaDiscord size={25} />
+            <Link href="https://t.me/kritarthagrawal" target="_blank">
+              <FaTelegram size={25} />
             </Link>
           </div>
         </nav>
@@ -104,8 +104,8 @@ export default function index() {
             <Image
               width={1000}
               height={1000}
-              className="h-48 w-48"
-              src="/kritarth-agrawal.png"
+              className="h-48 w-48 rounded-xl"
+              src="/KritarthAgrawal.png"
             />
           </div>
         </div>
